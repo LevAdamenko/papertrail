@@ -1,0 +1,57 @@
+{
+ "id": "4cfa52ac6e7c41cd99b12581cb7c141d",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "\n\nMAŁOPOLSKI URZĄD WOJEWÓDZKI W KRAKOWIE\nWydział Spraw Cudzoziemców\nul. Przy Rondzie 6, 31-547 Kraków\n\nKraków, 8 października 2026 r.\nZnak sprawy: WSC-III.6151.31105.2026\n\nPan\nDzmitry Sidorenka\nos. Przykładowe 3/15\n31-000 Kraków\n\nZAWIADOMIENIE O NIEZALATWIENIU SPRAWY W TERMINIE\n\nNa podstawie art. 36 § 1 ustawy z dnia 14 czerwca 1960 r. – Kodeks\npostępowania administracyjnego zawiadamiam, że sprawa z wniosku z dnia 3\nczerwca 2026 r. o udzielenie zezwolenia na pobyt stały nie zostanie załatwiona\nw terminie z uwagi na konieczność uzyskania informacji od Komendanta Straży\nGranicznej oraz Szefa Agencji Bezpieczeństwa Wewnętrznego.\n\nNowy termin załatwienia sprawy wyznacza się na dzień 31 stycznia 2027 r.\n\nJednocześnie informuję, że do dnia wydania decyzji należy przedłożyć dowód\nuiszczenia opłaty skarbowej w wysokości 640 zł za udzielenie zezwolenia na\npobyt stały, o ile nie został złożony wraz z wnioskiem.\n\nPOUCZENIE: Na niezałatwienie sprawy w terminie stronie przysługuje prawo do\nwniesienia ponaglenia do Szefa Urzędu do Spraw Cudzoziemców za pośrednictwem\norganu prowadzącego postępowanie (art. 37 § 1 i 3 Kodeksu postępowania\nadministracyjnego).\n\nZ up. Wojewody Małopolskiego\nKierownik Oddziału",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": null,
+    "reasoning_content": "The user wants a verbatim transcription of the document in the image, line by line, preserving Polish diacritics. I need to carefully read the image and reproduce the text exactly, including all special characters like ą, ć, ę, ł, ń, ó, ś, ź, ż. I will not add any commentary. I will preserve the line breaks as they appear in the document.\n"
+   },
+   "matched_stop": 248046,
+   "stop_reason": null
+  }
+ ],
+ "created": 1791869235,
+ "model": "Qwen/Qwen3.8-27B",
+ "object": "chat.completion",
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": null,
+ "usage": {
+  "completion_tokens": 537,
+  "prompt_tokens": 2721,
+  "total_tokens": 3258,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 86,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 64,
+   "image_tokens": 2640
+  },
+  "reasoning_tokens": 86,
+  "prompt_cache_hit_tokens": 64,
+  "prompt_cache_miss_tokens": 2657
+ },
+ "metadata": {
+  "weight_version": "default",
+  "weight_versions": [
+   {
+    "version": "default",
+    "start": 0,
+    "end": 537
+   }
+  ]
+ }
+}

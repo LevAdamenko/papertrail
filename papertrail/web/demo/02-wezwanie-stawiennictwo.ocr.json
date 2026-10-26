@@ -1,0 +1,57 @@
+{
+ "id": "c310c52974bc434c96690ef7b46406a6",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "\n\nDOLNOŚLĄSKI URZĄD WOJEWÓDZKI WE WROCŁAWIU\nWydział Spraw Obywatelskich i Cudzoziemców\npl. Powstańców Warszawy 1, 50-153 Wrocław\n\nWrocław, 6 października 2026 r.\nZnak sprawy: SOC-KP.6151.9077.2026\n\nPani\nMaryna Bondarenko\nul. Testowa 7/2\n50-002 Wrocław\n\nWEZWANIE DO OSOBISTEGO STAWIENNICTWA\n\nW związku z prowadzonym postępowaniem w sprawie udzielenia zezwolenia na pobyt\nczasowy, wzywam Panią do osobistego stawiennictwa w siedzibie Urzędu, pok. 12,\nw dniu 21 października 2026 r. o godz. 10:30 w celu:\n\n1. pobrania odcisków linii papilarnych;\n2. okazania oryginału ważnego paszportu;\n3. przedłożenia umowy najmu lokalu mieszkalnego wraz z potwierdzeniem\nzameldowania, jeżeli zostało dokonane;\n4. przedłożenia zaświadczenia z uczelni potwierdzającego kontynuację studiów w\nroku akademickim 2026/2027.\n\nW przypadku braku możliwości stawiennictwa w wyznaczonym terminie należy\nniezwłocznie powiadomić Urząd, podając przyczynę.\n\nPOUCZENIE: Niestawiennictwo bez usprawiedliwienia może skutkować wydaniem\ndecyzji na podstawie zebranego materiału dowodowego.\n\nZ up. Wojewody Dolnośląskiego\nStarszy Inspektor",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": null,
+    "reasoning_content": "The user wants a verbatim transcription of the Polish letter, line by line, preserving diacritics. I need to carefully read the image and reproduce the text exactly, including all Polish characters (ą, ć, ę, ł, ń, ó, ś, ź, ż). No commentary, just the text. I will maintain the line structure as shown.\n"
+   },
+   "matched_stop": 248046,
+   "stop_reason": null
+  }
+ ],
+ "created": 1791869223,
+ "model": "Qwen/Qwen3.8-27B",
+ "object": "chat.completion",
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": null,
+ "usage": {
+  "completion_tokens": 494,
+  "prompt_tokens": 2721,
+  "total_tokens": 3215,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 78,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": 2640
+  },
+  "reasoning_tokens": 78,
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 2721
+ },
+ "metadata": {
+  "weight_version": "default",
+  "weight_versions": [
+   {
+    "version": "default",
+    "start": 0,
+    "end": 494
+   }
+  ]
+ }
+}

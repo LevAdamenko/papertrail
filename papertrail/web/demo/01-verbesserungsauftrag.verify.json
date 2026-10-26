@@ -1,0 +1,82 @@
+[
+ {
+  "claim_id": "fee-1",
+  "status": "unverified",
+  "url": null,
+  "evidence": null,
+  "page_value": null,
+  "reason": "no evidence supplied"
+ },
+ {
+  "claim_id": "fee-2",
+  "status": "unverified",
+  "url": null,
+  "evidence": null,
+  "page_value": null,
+  "reason": "an official page may say something different; not confirmed, check with the office"
+ },
+ {
+  "claim_id": "deadline_rule-1",
+  "status": "unverified",
+  "url": null,
+  "evidence": null,
+  "page_value": null,
+  "reason": "no evidence supplied"
+ },
+ {
+  "claim_id": "legal_basis-1",
+  "status": "unverified",
+  "url": null,
+  "evidence": null,
+  "page_value": null,
+  "reason": "no page with the text of this law"
+ },
+ {
+  "claim_id": "document-1",
+  "status": "unverified",
+  "url": null,
+  "evidence": null,
+  "page_value": null,
+  "reason": "no evidence supplied"
+ },
+ {
+  "claim_id": "document-2",
+  "status": "unverified",
+  "url": null,
+  "evidence": null,
+  "page_value": null,
+  "reason": "no evidence supplied"
+ },
+ {
+  "claim_id": "document-3",
+  "status": "verified",
+  "url": "https://www.migration.gv.at/de/formen-der-zuwanderung/dauerhafte-zuwanderung-rot-weiss-rot-karte/rot-weiss-rot-karte-plus.html",
+  "evidence": "* Nachweis über einen **Krankenversicherungsschutz** (Pflichtversicherung oder eine entsprechende Versicherungspolizze), der alle Risiken abdeckt",
+  "page_value": "* Nachweis über einen **Krankenversicherungsschutz** (Pflichtversicherung oder eine entsprechende Versicherungspolizze), der alle Risiken abdeckt",
+  "reason": "evidence is on an allowed government page"
+ },
+ {
+  "claim_id": "document-4",
+  "status": "verified",
+  "url": "https://www.migration.gv.at/de/formen-der-zuwanderung/dauerhafte-zuwanderung-rot-weiss-rot-karte/rot-weiss-rot-karte-plus.html",
+  "evidence": "* Nachweis des Rechtsanspruchs auf eine **ortsübliche Unterkunft** wie beispielsweise Mietverträge, bestandsrechtliche Vorverträge oder Eigentumsnachweise",
+  "page_value": "* Nachweis des Rechtsanspruchs auf eine **ortsübliche Unterkunft** wie beispielsweise Mietverträge, bestandsrechtliche Vorverträge oder Eigentumsnachweise",
+  "reason": "evidence is on an allowed government page"
+ },
+ {
+  "claim_id": "document-5",
+  "status": "unverified",
+  "url": null,
+  "evidence": null,
+  "page_value": null,
+  "reason": "judge verdict: not_found"
+ },
+ {
+  "claim_id": "document-6",
+  "status": "verified",
+  "url": "https://www.wien.gv.at/amtswege/rot-weiss-rot-karte-plus",
+  "evidence": "Wenn Sie die Rot-Weiß‑Rot – Karte plus beantragen, werden von Ihnen Fingerabdrücke abgenommen. Das gilt auch für Kinder, die 6 Jahre oder älter sind.",
+  "page_value": "Wenn Sie die Rot-Weiß‑Rot – Karte plus beantragen, werden von Ihnen Fingerabdrücke abgenommen. Das gilt auch für Kinder, die 6 Jahre oder älter sind.",
+  "reason": "evidence is on an allowed government page"
+ }
+]

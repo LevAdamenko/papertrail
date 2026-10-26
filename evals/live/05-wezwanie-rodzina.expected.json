@@ -1,0 +1,11 @@
+{
+  "letter_type": "wezwanie_do_usuniecia_brakow",
+  "authority": "Małopolski Urząd Wojewódzki w Krakowie",
+  "case_number": "WSC-III.6151.22764.2026",
+  "letter_date": "2026-10-12",
+  "procedure": "zezwolenie na pobyt czasowy (połączenie z rodziną)",
+  "deadlines": [{"kind": "relative", "days": 14, "from": "doręczenie", "consequence": "pozostawienie wniosku bez rozpoznania"}],
+  "documents": ["odpis aktu małżeństwa z tłumaczeniem", "dowód uiszczenia opłaty skarbowej", "umowa najmu", "ubezpieczenie zdrowotne"],
+  "fees": [{"amount": 340, "currency": "PLN", "purpose": "zezwolenie na pobyt czasowy"}],
+  "legal_basis": ["art. 64 § 2 KPA", "art. 159 ust. 1 ustawy o cudzoziemcach"]
+}

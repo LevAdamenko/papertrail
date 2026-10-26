@@ -1,0 +1,57 @@
+{
+ "id": "bbb309e46d9b4a44891583e83c3dbdb3",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "\n\nMAZOWIECKI URZĄD WOJEWÓDZKI W WARSZAWIE\nWydział Spraw Cudzoziemców\nul. Marszałkowska 3/5, 00-624 Warszawa\n\nWarszawa, 2 października 2026 r.\nZnak sprawy: WSC-II-P.6151.48213.2026\n\nPan\nAndrii Kowalenko\nul. Przykładowa 12 m. 4\n02-001 Warszawa\n\nWEZWANIE DO USUNIĘCIA BRAKÓW FORMALNYCH WNIOSKU\n\nNa podstawie art. 64 § 2 ustawy z dnia 14 czerwca 1960 r. – Kodeks\npostępowania administracyjnego, w związku z wnioskiem z dnia 18 sierpnia 2026\nr. o udzielenie zezwolenia na pobyt czasowy i pracę, wzywam Pana do usunięcia\nbraków formalnych wniosku poprzez:\n\n1. złożenie aktualnej fotografii o wymiarach 35 mm x 45 mm, wykonanej nie\nwcześniej niż 6 miesięcy przed dniem złożenia wniosku;\n2. przedłożenie dowodu uiszczenia opłaty skarbowej w wysokości 440 zł za\nwydanie zezwolenia na pobyt czasowy i pracę;\n3. przedłożenie oryginału ważnego dokumentu podróży do wglądu;\n4. złożenie załącznika nr 1 do wniosku wypełnionego przez podmiot powierzający\nwykonywanie pracy.\n\nBraki należy usunąć w terminie 7 dni od dnia doręczenia niniejszego wezwania,\nosobiście lub za pośrednictwem operatora pocztowego.\n\nPOUCZENIE: Nieusunięcie braków w wyznaczonym terminie spowoduje pozostawienie\nwniosku bez rozpoznania.\n\nZ up. Wojewody Mazowieckiego\nInspektor Wydziału Spraw Cudzoziemców",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": null,
+    "reasoning_content": "The user wants a verbatim transcription of the Polish letter, line by line, preserving diacritics. I need to carefully read the image and reproduce the text exactly, including line breaks as they appear. No commentary, just the text.\n"
+   },
+   "matched_stop": 248046,
+   "stop_reason": null
+  }
+ ],
+ "created": 1791869211,
+ "model": "Qwen/Qwen3.8-27B",
+ "object": "chat.completion",
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": null,
+ "usage": {
+  "completion_tokens": 524,
+  "prompt_tokens": 2721,
+  "total_tokens": 3245,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 51,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": 2640
+  },
+  "reasoning_tokens": 51,
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 2721
+ },
+ "metadata": {
+  "weight_version": "default",
+  "weight_versions": [
+   {
+    "version": "default",
+    "start": 0,
+    "end": 524
+   }
+  ]
+ }
+}

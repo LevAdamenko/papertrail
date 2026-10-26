@@ -1,0 +1,11 @@
+{
+  "letter_type": "zawiadomienie_o_przedluzeniu",
+  "authority": "Małopolski Urząd Wojewódzki w Krakowie",
+  "case_number": "WSC-III.6151.31105.2026",
+  "letter_date": "2026-10-08",
+  "procedure": "zezwolenie na pobyt stały",
+  "deadlines": [{"kind": "absolute", "date": "2027-01-31", "what": "nowy termin załatwienia sprawy"}],
+  "documents": ["dowód uiszczenia opłaty skarbowej"],
+  "fees": [{"amount": 640, "currency": "PLN", "purpose": "zezwolenie na pobyt stały"}],
+  "legal_basis": ["art. 36 § 1 KPA", "art. 37 § 1 i 3 KPA"]
+}

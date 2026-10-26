@@ -1,0 +1,14 @@
+{
+  "letter_type": "Verbesserungsauftrag",
+  "authority": "Magistrat der Stadt Wien, Magistratsabteilung 35",
+  "case_number": "MA35-9/4471236-2026",
+  "letter_date": "2026-10-07",
+  "procedure": "Aufenthaltstitel Rot-Weiß-Rot – Karte plus",
+  "deadlines": [
+    {"kind": "relative", "days": 14, "from": "Zustellung"},
+    {"kind": "appointment", "date": "2026-11-04", "time": "09:15", "place": "Dresdner Straße 93, Schalter 7"}
+  ],
+  "documents": ["Kopie des Reisepasses", "Farblichtbild 35 x 45 mm", "Nachweis Krankenversicherung", "Mietvertrag", "Lohnzettel", "Fingerabdrücke"],
+  "fees": [{"amount": 120, "currency": "EUR"}, {"amount": 20, "currency": "EUR"}],
+  "legal_basis": ["§ 13 Abs. 3 AVG"]
+}

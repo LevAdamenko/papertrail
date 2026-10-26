@@ -1,0 +1,57 @@
+{
+ "id": "34ad9f9e820b4a8daa5760de655a10e2",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "\n\nMAGISTRAT DER STADT WIEN\nMagistratsabteilung 35 – Einwanderung und Staatsbürgerschaft\nDresdner Straße 93, 1200 Wien\n\nWien, 7. Oktober 2026\nGeschäftszahl: MA35-9/4471236-2026\n\nHerrn\nAndrij Kowalenko\nTestgasse 12/4\n1100 Wien\n\nVERBESSERUNGSAUFTRAG\n\nBetreff: Antrag auf Erteilung eines Aufenthaltstitels „Rot-Weiß-Rot – Karte\nplus“\n\nSehr geehrter Herr Kowalenko,\n\nIhr Antrag vom 2. September 2026 ist unvollständig. Gemäß § 13 Abs. 3 AVG\nwerden Sie aufgefordert, binnen 14 Tagen ab Zustellung dieses Schreibens\nfolgende Unterlagen nachzureichen:\n\n1. Kopie aller beschriebenen Seiten Ihres gültigen Reisepasses;\n2. ein aktuelles Farbbild im Format 35 x 45 mm;\n3. Nachweis eines alle Risiken abdeckenden Krankenversicherungsschutzes;\n4. Mietvertrag oder Nachweis über eine ortsübliche Unterkunft;\n5. Lohnzettel der letzten drei Monate als Nachweis ausreichender\nUnterhaltsmittel.\n\nFür die Abnahme Ihrer Fingerabdrücke werden Sie ersucht, am 4. November 2026\num 09:15 Uhr persönlich bei der MA 35, Dresdner Straße 93, Schalter 7,\nvorzusprechen.\n\nFür die Erteilung des Aufenthaltstitels ist eine Gebühr in Höhe von 120 Euro\nzu entrichten, für die Ausstellung der Karte zusätzlich 20 Euro.\n\nWerden die Unterlagen nicht fristgerecht vorgelegt, wird Ihr Antrag gemäß § 13\nAbs. 3 AVG zurückgewiesen.\n\nMit freundlichen Grüßen\nFür den Abteilungsleiter",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": null,
+    "reasoning_content": "The user wants a verbatim transcription of the document, line by line, preserving diacritics. The instruction mentions \"Polish diacritics\" but the document is in German; I will simply transcribe exactly what is written, preserving all characters as shown. I will output only the text without commentary.\n"
+   },
+   "matched_stop": 248046,
+   "stop_reason": null
+  }
+ ],
+ "created": 1791910775,
+ "model": "Qwen/Qwen3.8-27B",
+ "object": "chat.completion",
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": null,
+ "usage": {
+  "completion_tokens": 510,
+  "prompt_tokens": 2721,
+  "total_tokens": 3231,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 66,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "image_tokens": 2640
+  },
+  "reasoning_tokens": 66,
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 2721
+ },
+ "metadata": {
+  "weight_version": "default",
+  "weight_versions": [
+   {
+    "version": "default",
+    "start": 0,
+    "end": 510
+   }
+  ]
+ }
+}

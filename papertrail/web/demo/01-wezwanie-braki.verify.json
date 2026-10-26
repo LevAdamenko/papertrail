@@ -1,0 +1,58 @@
+[
+ {
+  "claim_id": "fee-1",
+  "status": "verified",
+  "url": "https://bip.lubuskie.uw.gov.pl/sprawy_obywatelskie/zezwolenie_na_pobyt_czasowy_i_prace",
+  "evidence": "- opłaty skarbowej w wysokości 440 zł za udzielenie zezwolenia",
+  "page_value": "440 zł",
+  "reason": "evidence is on an allowed government page"
+ },
+ {
+  "claim_id": "deadline_rule-1",
+  "status": "verified",
+  "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19600300168/U/D19600168Lj.pdf",
+  "evidence": "§ 2. Jeżeli podanie nie spełnia innych wymagań ustalonych w przepisach prawa, należy wezwać wnoszącego do usunięcia braków w wyznaczonym terminie, nie krótszym niż siedem dni, z pouczeniem, że nieusunięcie tych braków spowoduje pozostawienie podania bez rozpoznania.",
+  "page_value": null,
+  "reason": "the letter's 7 days meet the 7-day minimum in art. 64 § 2 KPA (official text on ISAP)"
+ },
+ {
+  "claim_id": "legal_basis-1",
+  "status": "verified",
+  "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19600300168/U/D19600168Lj.pdf",
+  "evidence": "§ 2. Jeżeli podanie nie spełnia innych wymagań ustalonych w przepisach prawa, należy wezwać wnoszącego do usunięcia braków w wyznaczonym terminie, nie krótszym niż siedem dni, z pouczeniem, że nieusunięcie tych braków spowoduje pozostawienie podania bez rozpoznania.",
+  "page_value": null,
+  "reason": "evidence is on an allowed government page"
+ },
+ {
+  "claim_id": "document-1",
+  "status": "verified",
+  "url": "https://cudzoziemcy.lublin.uw.gov.pl/pl/zezwolenie-na-pobyt-czasowy/praca/zezwolenie-na-pobyt-czasowy-i-prace",
+  "evidence": "1. Cyfrowe zdjęcie spełniająca wymagania:",
+  "page_value": "1. Cyfrowe zdjęcie spełniająca wymagania:",
+  "reason": "evidence is on an allowed government page"
+ },
+ {
+  "claim_id": "document-2",
+  "status": "unverified",
+  "url": null,
+  "evidence": null,
+  "page_value": null,
+  "reason": "no evidence supplied"
+ },
+ {
+  "claim_id": "document-3",
+  "status": "unverified",
+  "url": null,
+  "evidence": null,
+  "page_value": null,
+  "reason": "an official page may say something different; not confirmed, check with the office"
+ },
+ {
+  "claim_id": "document-4",
+  "status": "unverified",
+  "url": null,
+  "evidence": null,
+  "page_value": null,
+  "reason": "judge verdict: not_found"
+ }
+]

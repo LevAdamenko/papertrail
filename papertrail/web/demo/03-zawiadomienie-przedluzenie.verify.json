@@ -1,0 +1,34 @@
+[
+ {
+  "claim_id": "fee-1",
+  "status": "verified",
+  "url": "https://archiwum.kielce.uw.gov.pl/pl/obsluga-klienta/cudzoziemcy-1/oplaty",
+  "evidence": "- pobyt stały – 640 zł",
+  "page_value": "640 zł",
+  "reason": "evidence is on an allowed government page"
+ },
+ {
+  "claim_id": "legal_basis-1",
+  "status": "verified",
+  "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19600300168/U/D19600168Lj.pdf",
+  "evidence": "§ 1. O każdym przypadku niezałatwienia sprawy w terminie organ administracji publicznej jest obowiązany zawiadomić strony, podając przyczyny zwłoki, wskazując nowy termin załatwienia sprawy oraz pouczając o prawie do wnie-sienia ponaglenia.",
+  "page_value": null,
+  "reason": "evidence is on an allowed government page"
+ },
+ {
+  "claim_id": "legal_basis-2",
+  "status": "verified",
+  "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19600300168/U/D19600168Lj.pdf",
+  "evidence": "§ 1. Stronie służy prawo do wniesienia ponaglenia, jeżeli: 1) nie załatwiono sprawy w terminie określonym w art. 35 lub przepisach szczególnych ani w terminie wskazanym zgodnie z art. 36 § 1 (bezczynność); 2) postępowanie jest prowadzone dłużej niż jest to niezbędne do załatwienia sprawy (przewlekłość).",
+  "page_value": null,
+  "reason": "evidence is on an allowed government page"
+ },
+ {
+  "claim_id": "document-1",
+  "status": "verified",
+  "url": "https://bip.bydgoszcz.uw.gov.pl/460/zezwolenie-na-pobyt-staly.html",
+  "evidence": "Do wniosku należy dołączyć cyfrową fotografię biometryczną, skany/zdjęcia wszystkich stron dokumentu podróży oraz potwierdzenie wniesienia opłaty skarbowej (640 PLN)",
+  "page_value": null,
+  "reason": "the official page of this procedure asks for it"
+ }
+]

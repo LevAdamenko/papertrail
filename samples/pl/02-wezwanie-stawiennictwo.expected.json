@@ -1,0 +1,11 @@
+{
+  "letter_type": "wezwanie_do_stawiennictwa",
+  "authority": "Dolnośląski Urząd Wojewódzki we Wrocławiu",
+  "case_number": "SOC-KP.6151.9077.2026",
+  "letter_date": "2026-10-06",
+  "procedure": "zezwolenie na pobyt czasowy",
+  "deadlines": [{"kind": "appointment", "date": "2026-10-21", "time": "10:30", "place": "pok. 12"}],
+  "documents": ["odciski linii papilarnych", "oryginał paszportu", "umowa najmu", "zaświadczenie z uczelni"],
+  "fees": [],
+  "legal_basis": []
+}

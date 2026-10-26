@@ -1,0 +1,1021 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:,">
+<title>PaperTrail · Official migration letters, turned into clear actions</title>
+<style>
+:root {
+  --bg-desk: #edf0f5;
+  --bg-paper: #ffffff;
+  --bg-subtle: #f5f7fa;
+  --bg-tint: #e8eef7;
+  --ink: #111927;
+  --ink-muted: #425066;
+  --ink-blue: #143a75;
+  --ink-blue-hover: #0d2854;
+  --ink-blue-soft: #e6eefb;
+  --ink-blue-border: #9ab3d9;
+  --stamp-red: #bf311e;
+  --stamp-red-bg: #fdf1ef;
+  --stamp-red-border: #e09186;
+  --stamp-green: #16653e;
+  --stamp-green-bg: #eaf6f0;
+  --stamp-green-border: #7fc4a0;
+  --stamp-amber: #78490f;
+  --stamp-amber-bg: #fef6e7;
+  --stamp-amber-border: #dfc088;
+  --rule: #cbd4e1;
+  --rule-strong: #9aa8bc;
+  --focus: #bf311e;
+  --font-serif: "Fraunces", "Newsreader", "EB Garamond", "Iowan Old Style", "Charter", "PT Serif", Georgia, serif;
+  --font-mono: "IBM Plex Mono", "JetBrains Mono", "SF Mono", "PT Mono", ui-monospace, Menlo, monospace;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--bg-desk);
+  font-family: var(--font-sans);
+  line-height: 1.55;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body {
+  margin: 0;
+  background-color: var(--bg-desk);
+  background-image:
+    linear-gradient(to right, rgba(20, 58, 117, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(20, 58, 117, 0.035) 1px, transparent 1px);
+  background-size: 28px 28px;
+  color: var(--ink);
+}
+main {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 28px 48px;
+}
+a {
+  color: var(--ink-blue);
+  text-underline-offset: 3px;
+}
+a:hover {
+  color: var(--ink-blue-hover);
+}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+summary:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+.skip {
+  position: absolute;
+  left: 20px;
+  top: -60px;
+  background: var(--bg-paper);
+  color: var(--ink-blue);
+  border: 2px solid var(--ink-blue);
+  padding: 10px 14px;
+  font-weight: 600;
+  z-index: 10;
+}
+.skip:focus { top: 12px; }
+
+/* Top Dossier Bar */
+nav {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 18px 0;
+  border-bottom: 2px solid var(--ink);
+  font-size: 0.88rem;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-serif);
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-decoration: none;
+  letter-spacing: -0.02em;
+}
+.brand-seal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 2px solid var(--ink-blue);
+  background: var(--ink-blue-soft);
+  color: var(--ink-blue);
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+.nav-code {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  color: var(--ink-muted);
+  padding: 3px 8px;
+  border: 1px solid var(--rule);
+  background: var(--bg-paper);
+}
+.nav-note {
+  margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+}
+.nav-cases {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink-blue);
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid var(--ink-blue-border);
+  background: var(--bg-paper);
+}
+.nav-cases:hover {
+  background: var(--ink-blue-soft);
+}
+
+/* First Screen: Centered Lead + Annotated Real Letter Specimen */
+.hero {
+  padding: 34px 0 36px;
+  border-bottom: 1px solid var(--rule-strong);
+}
+.hero-lead {
+  max-width: 820px;
+  margin: 0 auto 28px;
+  text-align: center;
+}
+h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(2.15rem, 4vw, 3.35rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  margin: 0 0 14px;
+  color: var(--ink);
+}
+h1 mark {
+  background: linear-gradient(180deg, transparent 58%, #d6e4fa 58%);
+  color: var(--ink-blue);
+  padding: 0 4px;
+}
+.intro {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--ink-muted);
+  max-width: 670px;
+  margin: 0 auto 20px;
+}
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 14px 20px;
+}
+button,
+.download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--ink-blue);
+  color: #ffffff;
+  border: 1px solid var(--ink-blue);
+  border-radius: 4px;
+  padding: 13px 22px;
+  font-family: var(--font-sans);
+  font-size: 0.96rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s, transform 0.1s;
+}
+button:hover,
+.download:hover {
+  background: var(--ink-blue-hover);
+  border-color: var(--ink-blue-hover);
+  color: #ffffff;
+}
+button:disabled {
+  opacity: 0.65;
+  cursor: progress;
+}
+.hero-note {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  margin: 0;
+}
+
+/* Annotated Specimen Desk */
+.specimen-stage {
+  position: relative;
+  max-width: 1120px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: 22px;
+  align-items: start;
+}
+.letter-sheet {
+  position: relative;
+  background: var(--bg-paper);
+  border: 1px solid var(--rule-strong);
+  box-shadow:
+    0 2px 0 #d9e0ec,
+    0 12px 30px rgba(17, 25, 39, 0.08);
+  padding: 26px 30px 24px;
+}
+.letter-sheet::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: var(--ink-blue);
+}
+.sheet-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--rule);
+  font-size: 0.8rem;
+}
+.sheet-authority {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--ink);
+}
+.sheet-authority small {
+  display: block;
+  font-weight: 400;
+  color: var(--ink-muted);
+  margin-top: 2px;
+}
+.sheet-docket {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  background: var(--bg-subtle);
+  border: 1px solid var(--rule);
+  padding: 5px 9px;
+  color: var(--ink);
+  text-align: right;
+  white-space: nowrap;
+}
+.sheet-title {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 14px 0 10px;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+.sheet-body {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: #1f2937;
+}
+.sheet-body p {
+  margin: 8px 0;
+}
+.sheet-list {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+.sheet-list li {
+  margin: 6px 0;
+}
+.hl-blue {
+  background: #e3edfb;
+  border-bottom: 2px solid var(--ink-blue);
+  padding: 1px 4px;
+  font-family: var(--font-mono);
+  font-size: 0.84em;
+  color: var(--ink-blue);
+  font-weight: 600;
+}
+.hl-req {
+  background: #eaf4ee;
+  border-bottom: 2px solid var(--stamp-green);
+  padding: 1px 4px;
+}
+.hl-due {
+  background: var(--stamp-red-bg);
+  border-bottom: 2px solid var(--stamp-red);
+  padding: 1px 4px;
+  color: var(--stamp-red);
+  font-weight: 700;
+}
+.marker-pin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 2px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.pin-due {
+  background: var(--stamp-red);
+  color: #ffffff;
+}
+.pin-bring {
+  background: var(--ink-blue);
+  color: #ffffff;
+}
+.pin-reply {
+  background: var(--ink);
+  color: #ffffff;
+}
+
+/* Sticky / Pinned Annotations Stack */
+.annotations-col {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-left: -34px;
+  margin-top: 16px;
+  z-index: 2;
+}
+.sticky-note {
+  position: relative;
+  background: var(--bg-paper);
+  border: 1px solid var(--rule-strong);
+  border-left: 4px solid var(--ink-blue);
+  padding: 14px 16px;
+  box-shadow: -4px 8px 22px rgba(17, 25, 39, 0.1);
+}
+.sticky-note.note-deadline {
+  border-left-color: var(--stamp-red);
+  background: #fffafa;
+}
+.sticky-note.note-reply {
+  border-left-color: var(--ink);
+}
+.note-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.note-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.73rem;
+  font-weight: 700;
+  color: var(--ink-blue);
+}
+.note-deadline .note-tag {
+  color: var(--stamp-red);
+}
+.note-reply .note-tag {
+  color: var(--ink);
+}
+.note-title {
+  font-weight: 700;
+  font-size: 0.93rem;
+  margin: 0 0 4px;
+  color: var(--ink);
+}
+.note-desc {
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  margin: 0;
+}
+
+/* Rubber Stamps & Badges */
+.stamp-date {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: var(--stamp-red);
+  background: var(--stamp-red-bg);
+  border: 2px solid var(--stamp-red);
+  padding: 2px 8px;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transform: rotate(-1.5deg);
+}
+.badge {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.71rem;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  padding: 3px 9px;
+  border: 2px solid var(--rule-strong);
+  background: var(--bg-subtle);
+  color: var(--ink-muted);
+  margin: 6px 8px 6px 0;
+  vertical-align: middle;
+}
+.verified {
+  background: var(--stamp-green-bg);
+  color: var(--stamp-green);
+  border-color: var(--stamp-green);
+  box-shadow: inset 0 0 0 1px var(--stamp-green-border);
+  transform: rotate(-1deg);
+}
+.from_letter {
+  background: var(--ink-blue-soft);
+  color: var(--ink-blue);
+  border-color: var(--ink-blue);
+}
+.unverified {
+  background: var(--stamp-amber-bg);
+  color: var(--stamp-amber);
+  border-color: var(--stamp-amber-border);
+}
+.contradicted {
+  background: var(--stamp-red-bg);
+  color: var(--stamp-red);
+  border-color: var(--stamp-red);
+}
+
+/* Panels & Workspace */
+#workspace { scroll-margin-top: 20px; }
+h2 {
+  font-family: var(--font-serif);
+  font-size: 1.65rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 8px;
+  color: var(--ink);
+}
+h3 {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 18px 0 8px;
+  text-transform: capitalize;
+  color: var(--ink);
+}
+p { margin: 8px 0; }
+.muted, small { color: var(--ink-muted); }
+small {
+  display: block;
+  margin-top: 6px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+form, .panel {
+  background: var(--bg-paper);
+  border: 1px solid var(--rule-strong);
+  padding: 26px 28px;
+  margin: 24px 0;
+  box-shadow: 0 6px 20px rgba(17, 25, 39, 0.05);
+}
+
+/* Demo Sample Dossier Cards */
+#demo {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 28px 0 10px;
+  margin: 0;
+}
+.demo-label {
+  display: inline-block;
+  font-family: var(--font-mono);
+  background: var(--ink-blue-soft);
+  color: var(--ink-blue);
+  border: 1px solid var(--ink-blue-border);
+  padding: 4px 10px;
+  font-size: 0.76rem;
+  font-weight: 600;
+}
+#demo > p:not(.demo-label) {
+  max-width: 800px;
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+}
+.model-note {
+  font-family: var(--font-mono);
+  font-size: 0.76rem !important;
+}
+.samples {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+.sample-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background: var(--bg-paper);
+  border: 1px solid var(--rule-strong);
+  border-top: 3px solid var(--ink-blue);
+  border-radius: 3px;
+  color: var(--ink);
+  text-align: left;
+  padding: 14px;
+  font-weight: 600;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.1s;
+}
+.sample-card:hover {
+  background: var(--bg-paper);
+  color: var(--ink);
+  border-color: var(--ink-blue);
+  box-shadow: 0 8px 22px rgba(20, 58, 117, 0.12);
+}
+.sample-photo {
+  display: block;
+  width: 100%;
+  height: 136px;
+  object-fit: contain;
+  background: var(--bg-subtle);
+  border: 1px solid var(--rule);
+  padding: 6px;
+  margin-bottom: 12px;
+}
+.sample-card span {
+  display: block;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: var(--ink);
+}
+.sample-card small {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--stamp-red);
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+/* Status & Pipeline Steps */
+#message {
+  white-space: pre-wrap;
+}
+#message:focus { outline: none; }
+#message:not(:empty) {
+  font-family: var(--font-mono);
+  font-size: 0.86rem;
+  border-left: 4px solid var(--ink-blue);
+  background: var(--ink-blue-soft);
+  color: var(--ink);
+  padding: 14px 18px;
+  margin-top: 20px;
+}
+#message.error {
+  background: var(--stamp-red-bg);
+  border-color: var(--stamp-red);
+  color: var(--stamp-red);
+}
+.steps {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+}
+.steps li {
+  background: var(--bg-paper);
+  border: 1px solid var(--rule);
+  padding: 6px 11px;
+  color: var(--ink-muted);
+}
+.steps li.error,
+.error {
+  color: var(--stamp-red);
+}
+
+/* Result Checklist Styled as Fillable Official Form (Бланк) */
+#result > .panel:first-child {
+  border-top: 5px solid var(--ink-blue);
+  position: relative;
+}
+.docket-code {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--ink-blue);
+  background: var(--bg-subtle);
+  border: 1px solid var(--rule-strong);
+  padding: 4px 10px;
+  margin: 4px 0 8px;
+}
+#result section > h3 {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: var(--bg-subtle);
+  border-top: 1px solid var(--rule-strong);
+  border-bottom: 1px solid var(--rule);
+  padding: 7px 12px;
+  margin: 22px 0 0;
+  color: var(--ink-blue);
+}
+.row {
+  position: relative;
+  border-top: 1px dashed var(--rule);
+  padding: 16px 12px 16px 42px;
+  overflow-wrap: anywhere;
+}
+.row:first-of-type {
+  border-top: 0;
+}
+.row::before {
+  content: "☐";
+  position: absolute;
+  left: 12px;
+  top: 14px;
+  font-family: var(--font-mono);
+  font-size: 1.15rem;
+  color: var(--ink-blue);
+  line-height: 1;
+}
+.row strong {
+  display: block;
+  font-size: 0.98rem;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+.row p {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  margin: 6px 0;
+}
+.row p.stamp-date {
+  color: var(--stamp-red);
+}
+.row a {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-top: 4px;
+}
+summary {
+  cursor: pointer;
+  color: var(--ink-muted);
+  font-size: 0.82rem;
+  padding: 10px 0;
+  min-height: 44px;
+}
+details[open] {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid var(--rule);
+}
+details small {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  background: var(--bg-subtle);
+  padding: 8px 10px;
+  border-left: 2px solid var(--rule-strong);
+}
+
+/* Draft Reply & Outgoing Correspondence */
+.drafts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.drafts > * { min-width: 0; }
+.copy {
+  min-height: 44px;
+  min-width: 72px;
+  padding: 6px 14px;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  background: var(--bg-subtle);
+  color: var(--ink-blue);
+  border: 1px solid var(--ink-blue);
+}
+.copy:hover {
+  background: var(--ink-blue);
+  color: #ffffff;
+}
+pre {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  background: var(--bg-subtle);
+  border: 1px solid var(--rule);
+  padding: 16px;
+  margin-top: 10px;
+}
+
+/* Upload Form (non-demo mode) */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-top: 16px;
+}
+.grid > * { min-width: 0; }
+label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+input, select {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+  padding: 11px 12px;
+  border: 1px solid var(--rule-strong);
+  border-radius: 3px;
+  font: inherit;
+  background: var(--bg-paper);
+}
+input[type="checkbox"] {
+  display: inline;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.check { margin: 18px 0; }
+
+/* Cases Archive */
+#cases {
+  background: var(--bg-subtle);
+  border-top: 3px solid var(--ink);
+}
+#cases .row::before {
+  content: "§";
+  font-family: var(--font-serif);
+  font-weight: 700;
+}
+#cases button {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  padding: 8px 14px;
+}
+
+footer {
+  border-top: 1px solid var(--rule-strong);
+  padding: 22px 0 0;
+  margin-top: 32px;
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  max-width: 900px;
+}
+
+@media (max-width: 900px) {
+  .specimen-stage {
+    grid-template-columns: 1fr;
+  }
+  .annotations-col {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .samples {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .nav-note {
+    display: none;
+  }
+  .nav-cases {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 620px) {
+  main {
+    padding: 0 16px 32px;
+  }
+  nav {
+    padding: 14px 0;
+    gap: 10px;
+  }
+  .nav-code {
+    display: none;
+  }
+  .hero {
+    padding: 22px 0 24px;
+  }
+  .hero-lead {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .hero-actions {
+    justify-content: flex-start;
+  }
+  .hero-actions .download {
+    width: 100%;
+  }
+  .letter-sheet {
+    padding: 18px 16px;
+  }
+  .sheet-top {
+    flex-direction: column;
+  }
+  .sheet-docket {
+    text-align: left;
+    white-space: normal;
+  }
+  .samples,
+  .grid,
+  .drafts {
+    grid-template-columns: 1fr;
+  }
+  .sample-card {
+    display: grid;
+    grid-template-columns: 82px 1fr;
+    column-gap: 14px;
+    align-items: center;
+  }
+  .sample-photo {
+    grid-row: 1 / 3;
+    height: 96px;
+    margin: 0;
+  }
+  .sample-card small {
+    padding-top: 4px;
+  }
+  form, .panel {
+    padding: 18px 16px;
+  }
+}
+</style>
+</head>
+<body>
+<main>
+<a class="skip" href="#workspace">Skip to workspace</a>
+<nav aria-label="Main navigation">
+  <a class="brand" href="/" aria-label="PaperTrail home">
+    <span class="brand-seal" aria-hidden="true">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="15" x2="15" y2="15"/><line x1="9" y1="11" x2="13" y2="11"/></svg>
+    </span>
+    PaperTrail
+  </a>
+  <span class="nav-code">PL · AT Migration Dossier</span>
+  <span class="nav-note">NVIDIA × Nebius hackathon</span>
+  <a class="nav-cases" href="#cases">Case register ↗</a>
+</nav>
+
+<header class="hero">
+  <div class="hero-lead">
+    <h1>Official migration letter?<br><mark>Turn the document into clear actions.</mark></h1>
+    <p class="intro">PaperTrail reads Polish and Austrian migration office letters, checks requirements against official government portals, prepares a bilingual reply draft, and exports calendar deadline reminders.</p>
+    <div class="hero-actions">
+      <a id="hero-cta" class="download" href="#workspace">Start with your letter <span aria-hidden="true">→</span></a>
+      <p id="hero-note" class="hero-note">Polish &amp; German letters · English reply translation</p>
+    </div>
+  </div>
+
+  <div class="specimen-stage" aria-label="Annotated sample migration letter showing how PaperTrail extracts deadlines, verified requirements, and reply drafts">
+    <article class="letter-sheet">
+      <div class="sheet-top">
+        <div class="sheet-authority">
+          MAZOWIECKI URZĄD WOJEWÓDZKI W WARSZAWIE
+          <small>Wydział Spraw Cudzoziemców · ul. Marszałkowska 3/5, 00-624 Warszawa</small>
+        </div>
+        <div class="sheet-docket">
+          Warszawa, 2026-10-02<br>
+          Znak: <strong>WSC-II-P.6151.48213.2026</strong>
+        </div>
+      </div>
+      <p class="sheet-title">WEZWANIE DO USUNIĘCIA BRAKÓW FORMALNYCH WNIOSKU</p>
+      <div class="sheet-body">
+        <p>Na podstawie <span class="hl-blue">art. 64 § 2 k.p.a.</span>, w związku z wnioskiem o udzielenie zezwolenia na pobyt czasowy i pracę, wzywam do usunięcia braków formalnych wniosku poprzez:</p>
+        <ol class="sheet-list">
+          <li>złożenie <span class="hl-req">aktualnej fotografii 35 mm × 45 mm</span>; <span class="marker-pin pin-bring">1 · BRING</span> <span class="badge verified">VERIFIED · GOV.PL</span></li>
+          <li>przedłożenie <span class="hl-req">dowodu opłaty skarbowej 440 zł</span>;</li>
+          <li>przedłożenie oryginału ważnego dokumentu podróży do wglądu;</li>
+          <li>złożenie załącznika nr 1 wypełnionego przez podmiot powierzający pracę.</li>
+        </ol>
+        <p>Braki należy usunąć <span class="hl-due">w terminie 7 dni od dnia doręczenia</span> niniejszego wezwania. <span class="marker-pin pin-due">2 · DEADLINE</span></p>
+        <p class="muted">Z up. Wojewody Mazowieckiego — Inspektor Wydziału Spraw Cudzoziemców <span class="marker-pin pin-reply">3 · REPLY</span></p>
+      </div>
+    </article>
+
+    <aside class="annotations-col" aria-label="Extracted actions from the letter">
+      <div class="sticky-note note-deadline">
+        <div class="note-head">
+          <span class="note-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            MARKER 2 · DEADLINE STAMP
+          </span>
+          <span class="stamp-date">DUE 2026-10-12</span>
+        </div>
+        <p class="note-title">7 days from delivery (received 2026-10-05)</p>
+        <p class="note-desc">Calculated from your delivery date and exported as an .ics calendar reminder.</p>
+      </div>
+
+      <div class="sticky-note">
+        <div class="note-head">
+          <span class="note-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+            MARKER 1 · WHAT TO BRING
+          </span>
+          <span class="badge verified">VERIFIED</span>
+        </div>
+        <p class="note-title">4 items extracted into a fillable form</p>
+        <p class="note-desc">440 PLN stamp duty, 35×45 mm photo, and art. 64 § 2 KPA checked against gov.pl sources.</p>
+      </div>
+
+      <div class="sticky-note note-reply">
+        <div class="note-head">
+          <span class="note-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            MARKER 3 · WHAT TO REPLY
+          </span>
+          <span class="nav-code">PL + EN</span>
+        </div>
+        <p class="note-title">Bilingual cover letter for case WSC-II-P.6151.48213.2026</p>
+        <p class="note-desc">Separates mailed enclosures from documents shown in person at the office.</p>
+      </div>
+    </aside>
+  </div>
+</header>
+
+<div id="workspace" tabindex="-1"></div>
+<section id="live-control" class="panel" hidden>
+  <h2>Live mode <span id="live-badge" class="badge verified" hidden>LIVE</span></h2>
+  <form id="unlock-form">
+    <label>Judge access code<input id="judge-code" type="password" autocomplete="off" required></label>
+    <button type="submit">Unlock</button>
+  </form>
+  <p id="unlock-message" role="status"></p>
+</section>
+<section id="demo" class="panel" hidden></section>
+
+<form id="letter-form">
+  <h2>Start with your letter</h2>
+  <p class="muted">Upload a clear photo (JPG, PNG or WebP; up to 15 MB).</p>
+  <label>Photo of your letter<input type="file" name="photo" accept="image/jpeg,image/png,image/webp" required></label>
+  <div class="grid">
+    <label>Delivery date (optional)<input type="date" name="delivered"><small>Use the date you received the letter to calculate relative deadlines.</small></label>
+    <label>Country<select name="country"><option value="auto">Detect from letter</option><option value="PL">Poland</option><option value="AT">Austria</option></select></label>
+  </div>
+  <label class="check"><input type="checkbox" id="draft" checked>Draft reply</label>
+  <button id="submit" type="submit">Build my checklist</button>
+</form>
+
+<p id="message" tabindex="-1" role="status" aria-live="polite"></p>
+<ol id="steps" class="steps" aria-live="polite"></ol>
+<div id="result"></div>
+
+<section id="cases" class="panel">
+  <h2>Your cases</h2>
+  <div id="case-list"></div>
+  <div id="case-detail"></div>
+  <button type="button" id="delete-cases" hidden>Delete my cases</button>
+</section>
+
+<footer>PaperTrail helps you prepare; review the original letter before acting. Source checks can be incomplete. Calendar reminders must be imported into your calendar; replies are never sent automatically.</footer>
+</main>
+<script>
+let demoMode=false,busy=false;
+const form=document.getElementById('letter-form'), output=document.getElementById('result'), message=document.getElementById('message'), steps=document.getElementById('steps'), submit=document.getElementById('submit');
+function el(tag,text,parent,cls){const node=document.createElement(tag);if(text!==undefined&&text!==null)node.textContent=String(text);if(cls)node.className=cls;if(parent)parent.appendChild(node);return node;}
+function list(title,items,parent){if(!items||!items.length)return;el('h3',title,parent);const ul=el('ul',null,parent);for(const item of items)el('li',item,ul);}
+function render(result,id){output.replaceChildren();const panel=el('section',null,output,'panel');el('h2','Your action checklist',panel);el('p','Case '+result.case.case_number,panel,'docket-code');el('p','VERIFIED: supported by an official source. FROM LETTER: stated in your letter. UNVERIFIED: needs checking. CONTRADICTED: conflicts with the source.',panel,'muted');el('p',result.case.authority,panel,'muted');if(demoMode)el('p','Recorded example · Source checks are not live. Checklist wording follows the original letter; an English version is included with the reply draft.',panel,'demo-label');const groups=new Map();for(const row of result.checklist){if(!groups.has(row.section)){const group=el('section',null,panel);el('h3',row.section.replaceAll('_',' '),group);groups.set(row.section,group);}const card=el('article',null,groups.get(row.section),'row');el('strong',row.what,card);const status=['verified','contradicted','unverified','from_letter'].includes(row.status)?row.status:'unverified';el('div',status==='from_letter'?'FROM LETTER':status.toUpperCase(),card,'badge '+status);const dueLine=[row.due,row.time,row.place].filter(Boolean).join(' · ');if(dueLine)el('p',dueLine,card,'stamp-date');if(row.needs_delivery_date)el('p','Enter the delivery date above and submit again to calculate this deadline.',card);if(typeof row.url==='string'&&(row.url.startsWith('https://')||row.url.startsWith('http://'))){const a=el('a','Official source',card);a.href=row.url;a.target='_blank';a.rel='noopener noreferrer';}if(row.evidence||row.quote||row.reason){const details=el('details',null,card);el('summary','Why this is on your checklist',details);if(row.evidence)el('small',row.evidence,details);if(row.quote)el('small','Letter: '+row.quote,details);if(row.reason)el('small',/judge|failed|exception|traceback/i.test(row.reason)?'The source check could not confirm this item. Check it with the authority.':row.reason==='no evidence supplied'?'No supporting source was recorded for this item.':row.reason,details);}}
+
+if(result.draft){const section=el('section',null,output,'panel');el('h2','Draft reply',section);el('p','Review the draft and fill in your name before sending.',section,'muted');const blocks=el('div',null,section,'drafts');for(const [label,text] of [[result.draft.language==='de'?'Deutsch':'Polski',result.draft.local],['English',result.draft.english]]){const block=el('div',null,blocks);el('h3',label,block);const button=el('button','Copy',block,'copy');button.type='button';button.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(text);button.textContent='Copied';}catch{button.textContent='Select text to copy';}});el('pre',text,block);}list('Attachments',result.draft.attachments,section);list('In person',result.draft.in_person,section);}
+if(result.draft_error)el('p','Your checklist is ready, but the reply draft is unavailable. Try the letter again.',output,'error');
+if(result.duplicate||!result.store.created){const change=el('section',null,output,'panel');el('h2','What changed',change);if(result.duplicate)el('p','This letter is already in the case — no new version stored',change);else if(result.changes.length){const ul=el('ul',null,change);for(const item of result.changes)el('li',item,ul);}else el('p','(no changes)',change);}
+if(result.has_ics){const link=el('a','Download calendar reminders (.ics)',output,'download');link.href='/api/jobs/'+id+'/ics';}}
+async function json(url,options){const response=await fetch(url,{...options,signal:typeof AbortSignal!=='undefined'?AbortSignal.timeout(30000):undefined});const data=await response.json();if(!response.ok)throw new Error(data.error||'Request failed');return data;}
+async function startJob(url,options,button){if(busy)return;demoMode=url.startsWith('/api/demo/');busy=true;button.disabled=true;document.getElementById('hero-cta').setAttribute('aria-disabled','true');output.replaceChildren();steps.replaceChildren();message.className='';message.textContent=demoMode?'Opening the recorded example…':'Uploading your letter…';message.focus();try{const {job_id}=await json(url,options);const started=Date.now();for(;;){if(Date.now()-started>120000)throw new Error('timeout');const job=await json('/api/jobs/'+job_id);steps.replaceChildren();for(const step of job.steps)el('li',(demoMode&&step.key==='verify'?'Review recorded source checks':step.label)+' · '+({pending:'Waiting',running:'In progress',done:'Done',error:'Unavailable'}[step.state]||step.state),steps,step.state==='error'?'error':'');if(job.status==='error')throw new Error(job.error||'Processing failed');if(job.status==='done'){message.textContent='Your checklist is ready.';render(job.result,job_id);break;}message.textContent=demoMode?'Preparing your recorded checklist…':'Reading your letter and preparing next steps…';await new Promise(resolve=>setTimeout(resolve,500));}}catch(error){message.className='error';message.textContent=error.message==='live_daily_cap'?'Today’s live limit has been reached. Try a replay sample below.':error.message==='live_locked'?'Unlock Live mode to process your letter.':'We couldn’t complete this request. Please try again. If it keeps happening, reload the page.';if(error.message==='live_daily_cap'){const link=el('a','Open replay samples',message);link.href='#demo';}}finally{busy=false;button.disabled=false;document.getElementById('hero-cta').removeAttribute('aria-disabled');await refreshCases();}}
+form.addEventListener('submit',event=>{event.preventDefault();const body=new FormData(form);body.set('draft',document.getElementById('draft').checked?'1':'0');startJob('/api/letters',{method:'POST',body},submit);});
+async function showCase(number){const target=document.getElementById('case-detail');target.replaceChildren();try{const item=await json('/api/cases/'+encodeURIComponent(number));el('h3',item.case_number,target);el('h3','Timeline',target);for(const entry of item.timeline){const row=el('div',null,target,'row');el('p',entry.at+' · '+entry.letter_type,row);list('Changes',entry.changes,row);}el('h3','Dates & deadlines',target);for(const due of item.dues)el('p',[due.what,due.date,due.time,due.place,due.needs_delivery_date?'needs delivery date':null].filter(Boolean).join(' · '),target);if(!item.dues.length)el('p','No deadlines.',target);}catch(error){el('p','This case information is unavailable. Please reload the page to try again.',target,'error');}}
+async function refreshCases(){const target=document.getElementById('case-list');try{const items=await json('/api/cases');target.replaceChildren();if(!items.length)el('p','Your next steps will live here. Try a letter to start a case and see its timeline.',target);for(const item of items){const row=el('div',null,target,'row');const button=el('button',item.case_number,row);button.type='button';button.addEventListener('click',()=>showCase(item.case_number));el('p',[item.authority,item.letters+' letter(s)',item.next_due?'next: '+item.next_due:null,...item.overdue.map(day=>'OVERDUE '+day),item.needs_delivery_date?'needs delivery date':null].filter(Boolean).join(' · '),row);}}catch(error){target.replaceChildren();el('p','This case information is unavailable. Please reload the page to try again.',target,'error');}}
+refreshCases();
+function applyLive(config){document.getElementById('delete-cases').hidden=false;const unlocked=!!config.live_unlocked;form.hidden=!unlocked;document.getElementById('live-control').hidden=!config.live_available;document.getElementById('live-badge').hidden=!unlocked;document.getElementById('unlock-form').hidden=unlocked;}
+document.getElementById('unlock-form').addEventListener('submit',async event=>{event.preventDefault();const input=document.getElementById('judge-code');const code=input.value;input.value='';try{await json('/api/unlock',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({code})});applyLive(await json('/api/config'));document.getElementById('unlock-message').textContent='Live mode unlocked.';await refreshCases();}catch(error){document.getElementById('unlock-message').textContent=error.message==='unlock_rate_limit'?'Too many attempts. Try again in an hour.':'Could not unlock. Check your access code.';}});
+document.getElementById('delete-cases').addEventListener('click',async()=>{try{await json('/api/cases',{method:'DELETE'});document.getElementById('case-detail').replaceChildren();output.replaceChildren();await refreshCases();}catch(error){message.textContent='Could not delete cases. Please try again.';}});
+async function configure(){const config=await json('/api/config');if(config.live_available!==undefined)applyLive(config);if(!config.demo&&config.live_available===undefined)return;demoMode=true;if(config.demo)form.hidden=true;const cta=document.getElementById('hero-cta');cta.textContent='Try an example letter →';document.getElementById('hero-note').textContent='Offline demo · Recorded answers · No upload needed';const panel=document.getElementById('demo');panel.hidden=false;el('h2','Choose a sample letter',panel);el('p','Demo: recorded model responses',panel,'demo-label');el('p',config.demo?'Explore four sample letters with recorded AI answers and source checks. This demo does not process uploads or check government sites live. Sample dates are fixed and may be in the past.':'Explore four sample letters with recorded AI answers and source checks. Unlock Live mode to process your own letter when available. Sample dates are fixed and may be in the past.',panel);const samples=await json('/api/demo/samples');el('p','Recorded letter reading: Qwen OCR + Nemotron via Nebius Token Factory.',panel,'model-note');const grid=el('div',null,panel,'samples');cta.addEventListener('click',event=>{event.preventDefault();if(!busy)grid.querySelector('button').click();});for(const sample of samples){const button=el('button',null,grid,'sample-card');button.type='button';const photo=el('img',null,button,'sample-photo');photo.src='/api/demo/samples/'+encodeURIComponent(sample.id)+'/photo';photo.alt=sample.title;el('span','Try a sample letter: '+sample.title,button);el('small','Received '+sample.delivered+' · Open checklist →',button);button.addEventListener('click',()=>startJob('/api/demo/samples/'+encodeURIComponent(sample.id),{method:'POST'},button));}}
+configure().catch(error=>{message.className='error';message.textContent='We couldn’t complete this request. Please try again. If it keeps happening, reload the page.';});
+</script>
+</body>
+</html>

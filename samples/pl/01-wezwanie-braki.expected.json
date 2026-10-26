@@ -1,0 +1,11 @@
+{
+  "letter_type": "wezwanie_do_usuniecia_brakow",
+  "authority": "Mazowiecki Urząd Wojewódzki w Warszawie",
+  "case_number": "WSC-II-P.6151.48213.2026",
+  "letter_date": "2026-10-02",
+  "procedure": "zezwolenie na pobyt czasowy i pracę",
+  "deadlines": [{"kind": "relative", "days": 7, "from": "doręczenie", "consequence": "pozostawienie wniosku bez rozpoznania"}],
+  "documents": ["fotografia 35x45 mm", "dowód uiszczenia opłaty skarbowej", "oryginał dokumentu podróży", "załącznik nr 1"],
+  "fees": [{"amount": 440, "currency": "PLN", "purpose": "zezwolenie na pobyt czasowy i pracę"}],
+  "legal_basis": ["art. 64 § 2 KPA"]
+}

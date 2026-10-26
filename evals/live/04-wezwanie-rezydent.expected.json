@@ -1,0 +1,11 @@
+{
+  "letter_type": "wezwanie_do_usuniecia_brakow",
+  "authority": "Dolnośląski Urząd Wojewódzki we Wrocławiu",
+  "case_number": "SOC-RD.6152.1907.2026",
+  "letter_date": "2026-10-09",
+  "procedure": "zezwolenie na pobyt rezydenta długoterminowego UE",
+  "deadlines": [{"kind": "relative", "days": 14, "from": "doręczenie", "consequence": "pozostawienie wniosku bez rozpoznania"}],
+  "documents": ["fotografia 35x45 mm", "kserokopia dokumentu podróży", "dowód uiszczenia opłaty skarbowej", "ubezpieczenie zdrowotne", "źródło dochodu", "odciski linii papilarnych"],
+  "fees": [{"amount": 640, "currency": "PLN", "purpose": "zezwolenie na pobyt rezydenta długoterminowego UE"}],
+  "legal_basis": ["art. 64 § 2 KPA"]
+}

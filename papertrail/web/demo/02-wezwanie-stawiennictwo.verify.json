@@ -1,0 +1,42 @@
+[
+ {
+  "claim_id": "document-1",
+  "status": "unverified",
+  "url": null,
+  "evidence": null,
+  "page_value": null,
+  "reason": "no official page about this procedure"
+ },
+ {
+  "claim_id": "document-2",
+  "status": "unverified",
+  "url": null,
+  "evidence": null,
+  "page_value": null,
+  "reason": "no official page about this procedure"
+ },
+ {
+  "claim_id": "document-3",
+  "status": "unverified",
+  "url": null,
+  "evidence": null,
+  "page_value": null,
+  "reason": "no official page about this procedure"
+ },
+ {
+  "claim_id": "document-4",
+  "status": "unverified",
+  "url": null,
+  "evidence": null,
+  "page_value": null,
+  "reason": "no official page about this procedure"
+ },
+ {
+  "claim_id": "document-5",
+  "status": "unverified",
+  "url": null,
+  "evidence": null,
+  "page_value": null,
+  "reason": "no official page about this procedure"
+ }
+]

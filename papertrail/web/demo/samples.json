@@ -1,0 +1,30 @@
+[
+  {
+    "id": "01-wezwanie-braki",
+    "title": "Poland · Request to complete missing documents (7 days)",
+    "country": "PL",
+    "delivered": "2026-10-05",
+    "photo": "samples/pl/01-wezwanie-braki.jpg"
+  },
+  {
+    "id": "02-wezwanie-stawiennictwo",
+    "title": "Poland · Summons for fingerprints appointment",
+    "country": "PL",
+    "delivered": "2026-10-09",
+    "photo": "samples/pl/02-wezwanie-stawiennictwo.jpg"
+  },
+  {
+    "id": "03-zawiadomienie-przedluzenie",
+    "title": "Poland · Notice of extended processing time",
+    "country": "PL",
+    "delivered": "2026-10-12",
+    "photo": "samples/pl/03-zawiadomienie-przedluzenie.jpg"
+  },
+  {
+    "id": "01-verbesserungsauftrag",
+    "title": "Austria (Vienna MA 35) · Request to supplement application",
+    "country": "AT",
+    "delivered": "2026-10-09",
+    "photo": "samples/at/01-verbesserungsauftrag.jpg"
+  }
+]

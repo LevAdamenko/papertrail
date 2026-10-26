@@ -1,0 +1,14 @@
+.git
+.env
+.env.*
+*.key
+**/__pycache__
+.vercel
+tests
+evals
+scripts
+docs
+Dockerfile
+.dockerignore
+samples/**/*.txt
+samples/**/*.expected.json
